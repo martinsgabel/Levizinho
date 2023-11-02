@@ -19,7 +19,7 @@
   
   h1 {
     font-size: 15px;
-    text-shadow: 2px 2px white;
+    text-shadow: -2px 0 white, 0 2px white;
   }
   
   #display {

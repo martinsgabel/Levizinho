@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url(./utils/background.png);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+#header-tractor {
+  width: 50px;
+  margin-left: 15px;
+  animation: forwards;
+  transition: 3s;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#display {
+  width: 270px;
+  position: fixed;
+  margin-left: 80px;
+}
+
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  justify-content:flex-start;
+  width: 60%;
+}
+
+.gallerypic {
+  width: 300px;
+  border-right: 3px solid yellow;
+  border-bottom: 3px solid black;
+}
+
+.column {
+  margin: 0 3px;
+}

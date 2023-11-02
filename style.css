@@ -19,12 +19,13 @@
   
   h1 {
     font-size: 15px;
+    text-shadow: 2px 2px white;
   }
   
   #display {
     width: 10px;
     position: fixed;
-    left: -195px;
+    left: -190px;
     top: 300px;
   }
   

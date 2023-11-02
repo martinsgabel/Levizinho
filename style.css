@@ -22,7 +22,10 @@
   }
   
   #display {
-    display: none;
+    width: 10px;
+    position: fixed;
+    left: -35%;
+    top: 40%;
   }
   
   .gallery {

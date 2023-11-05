@@ -30,16 +30,19 @@
   }
   
   .gallery {
-    min-width: 80%;
+    min-width: 90%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
   }
   
   .gallerypic {
-    align-self: center;
+    min-width: 100%;
+    margin: 1% 0px;
     border-right: 3px solid yellow;
     border-bottom: 3px solid black;
   }
